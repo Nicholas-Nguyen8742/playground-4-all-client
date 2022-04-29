@@ -1,0 +1,9 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.credits {
+    padding: 1rem;
+    &__subheader {
+        color: $primary-green;
+    }
+}

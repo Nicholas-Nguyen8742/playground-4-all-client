@@ -1,0 +1,12 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.header {
+    display: flex;
+    &__logo {
+        width: 9rem;
+    }
+    &__title {
+        padding-left: 1rem;
+    }
+}
